@@ -1,0 +1,50 @@
+/*all*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-family: 'Crete Round', Serif;
+    font-size: 45px;
+    color:#444;
+}
+.wrapper
+{
+ width: 940px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
+
+/*header*/
+header h1 {
+    float: left;
+    margin-top: 30px; 
+    margin-left: 10px;
+}
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+span.star {
+    color:#ff6200;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
