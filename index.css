@@ -17,12 +17,28 @@ h2 {
     color: #444;
     font-size: 55px;
 }
-.wrapper
+h3{
+    font-size: 30px;
+    color: #444;
+}
+h4{
+    font-size: 24px;
+    color:#444;
+}
+p{
+    line-height: 20px;
+    color:#777;
+}
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+.wrapping
 {
  width: 940px;
  margin: 0 auto;
- padding: 0 10px;
-}
+ padding: 0 10px; 
+} 
 
 /*header*/
 header{
@@ -31,7 +47,7 @@ header{
 header h1 {
     float: left;
     margin-top: 30px; 
-    margin-left: 10px;
+    margin-left: -100px;
 }
 header nav{
     float: right;
@@ -73,14 +89,161 @@ header img {
     font-weight: bold;
 }
 .button1 {
-    height: 50px;
+    height: 60px;
     width: 120px;
     background: #ff6200;
     text-decoration: none;
     display: block;
     text-align: center;
+    padding-top: 15px;
     margin: 0 auto;
     color:#fff;
-    font-size: 20px;
+    font-size: 19px;
+    border-radius: 50%;
+}
+.button1:hover{
+    background-color:rgb(2, 81, 251);
+}
+
+/*second-part*/
+#second-part ul {
+margin-top: 30px;
+}
+#second-part ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 13px;
+    list-style: none;
+}
+#second-part h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#second-part p {
+    margin-bottom: 30px;
+
+}
+#planifier {
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+#organiser {
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+#voyager {
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+.clear{
+    clear: both;
+}
+
+/*third-part*/
+#third-part{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+#third-part article{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#third-part article:first-child{
+    margin-right: 20px;
+}
+.overlaye{
+    background-color: rgba(255,255,255, 0.95);
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+article p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button2{
+    background-color: #ff6200;
+    color: #fff;
+    padding: 6px 20px;
     border-radius: 3px;
+    text-decoration: none;
+}
+;.button2:hover{
+    color:blue;
+}
+
+/*contact*/
+#fourth-part {
+    padding: 60px 0;
+    text-align: center;
+}
+#fourth-part h3 {
+    margin: 0px auto 20px auto;
+    text-transform: uppercase;
+    width: 400px;
+    border-bottom: 1px solid #ff6200;
+    padding-bottom: 20px;
+}
+form {
+    margin: 60px 0 20px 0;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    color:#777;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: solid 2px #ddd;
+    border-radius: 3px;
+}
+.button3{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #ff6200;
+    border-style: none;
+}
+.button3:hover{
+    color:#fff;
+    background-color: #ff6200;
+    border-radius: 4px;
+}
+
+/*footer*/
+footer{
+    height: 260px;
+    background-color: #444; 
+}
+footer h1 {
+
+    text-align: center;
+    padding-top: 80px;
+    color:#fff;
+    
+}
+footer h1 span{
+    color:#ff6200;   
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    color:#777;
+    font-weight: bold;
 }
